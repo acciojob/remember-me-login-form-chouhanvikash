@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 	<form>
-		
 		<h1>Login Form</h1>
+
 		<input type="text" id="username" placeholder="Username">
-	<input type="password" id="password" placeholder="Password">
-		<lable>
-		<input type="checkbox" id="checkbox" > 
-		Remember me.
-	</lable>
-		<button id="submit",value="submit" type="submit">submit</button>
-	<button id="existing" style="display:none;">Login as existing user</button>
-	
+		<input type="password" id="password" placeholder="Password">
+
+		<label>
+			<input type="checkbox" id="checkbox"> 
+			Remember me.
+		</label>
+
+		<!-- removed the comma and set correct type -->
+		<button id="submit" value="submit" type="submit">Submit</button>
+		<!-- add type="button" so it doesn't submit form -->
+		<button id="existing" type="button" style="display:none;">Login as existing user</button>
 	</form>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+	<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
